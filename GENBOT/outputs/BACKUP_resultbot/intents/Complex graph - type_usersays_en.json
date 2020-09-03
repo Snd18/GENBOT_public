@@ -1,0 +1,70 @@
+[
+  {
+    "id": "060e272d-2390-4ff6-be0e-00a7aeb5d1d5",
+    "data": [
+      {
+        "text": "linesVs",
+        "alias": "complex_graph",
+        "meta": "@complex_graph",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1dd28e9c-05b7-4160-95af-5aa170786735",
+    "data": [
+      {
+        "text": "the type is: ",
+        "userDefined": false
+      },
+      {
+        "text": "pointsVs",
+        "alias": "complex_graph",
+        "meta": "@complex_graph",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4c8901ad-29d4-4c3f-b6a1-d7679c343cbc",
+    "data": [
+      {
+        "text": "type is ",
+        "userDefined": false
+      },
+      {
+        "text": "pointsSerie",
+        "alias": "complex_graph",
+        "meta": "@complex_graph",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "c81dddd1-c732-4c88-9fd4-75b70d5a756f",
+    "data": [
+      {
+        "text": "The type is : ",
+        "userDefined": false
+      },
+      {
+        "text": "linesVs",
+        "alias": "complex_graph",
+        "meta": "@complex_graph",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

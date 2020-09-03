@@ -1,0 +1,9 @@
+{
+  "id": "676fc5d2-5ada-440d-a370-c73a04bd22b4",
+  "name": "db_type",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

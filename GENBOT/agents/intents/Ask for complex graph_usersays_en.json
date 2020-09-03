@@ -1,0 +1,310 @@
+[
+    {
+        "id": "41f24594-9c05-4797-9c02-bdfef39b8a2e",
+        "data": [
+            {
+                "text": "graph ",
+                "userDefined": false
+            },
+            {
+                "text": "one",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            },
+            {
+                "text": ", ",
+                "userDefined": false
+            },
+            {
+                "text": "two",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            },
+            {
+                "text": ", ",
+                "userDefined": false
+            },
+            {
+                "text": "three",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            }
+        ],
+        "isTemplate": false,
+        "count": 0,
+        "updated": 0
+    },
+    {
+        "id": "58ed5d98-560c-4758-88ab-c50e5fd627ac",
+        "data": [
+            {
+                "text": "graph ",
+                "userDefined": false
+            },
+            {
+                "text": "one",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            }
+        ],
+        "isTemplate": false,
+        "count": 0,
+        "updated": 0
+    },
+    {
+        "id": "5063647f-b26c-419a-bb2f-af018a191dec",
+        "data": [
+            {
+                "text": "A graph with ",
+                "userDefined": false
+            },
+            {
+                "text": "one",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": false
+            },
+            {
+                "text": ", ",
+                "userDefined": false
+            },
+            {
+                "text": "two",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            },
+            {
+                "text": " and ",
+                "userDefined": false
+            },
+            {
+                "text": "three",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            }
+        ],
+        "isTemplate": false,
+        "count": 0,
+        "updated": 0
+    },
+    {
+        "id": "9b9bc170-b480-4e56-8e22-fa6a3976bc06",
+        "data": [
+            {
+                "text": "A graph with ",
+                "userDefined": false
+            },
+            {
+                "text": "one",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            },
+            {
+                "text": " and ",
+                "userDefined": false
+            },
+            {
+                "text": "two",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            }
+        ],
+        "isTemplate": false,
+        "count": 0,
+        "updated": 0
+    },
+    {
+        "id": "15f1fa59-af6a-4bdc-b122-ba787d70aae4",
+        "data": [
+            {
+                "text": "A graph with ",
+                "userDefined": false
+            },
+            {
+                "text": "one",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": false
+            },
+            {
+                "text": ", ",
+                "userDefined": false
+            },
+            {
+                "text": "two",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": false
+            }
+        ],
+        "isTemplate": false,
+        "count": 0,
+        "updated": 0
+    },
+    {
+        "id": "34ec4914-f864-4d2d-9c9d-cb6f042e78c1",
+        "data": [
+            {
+                "text": "A graph with ",
+                "userDefined": false
+            },
+            {
+                "text": "one",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": false
+            },
+            {
+                "text": ", ",
+                "userDefined": false
+            },
+            {
+                "text": "two",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            },
+            {
+                "text": ", ",
+                "userDefined": false
+            },
+            {
+                "text": "three",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            }
+        ],
+        "isTemplate": false,
+        "count": 0,
+        "updated": 0
+    },
+    {
+        "id": "9c8e394c-7a00-42d1-8a56-f51833413f53",
+        "data": [
+            {
+                "text": "graph",
+                "userDefined": false
+            }
+        ],
+        "isTemplate": false,
+        "count": 0,
+        "updated": 0
+    },
+    {
+        "id": "b6e5447b-0460-4280-989e-efa128fd2ef4",
+        "data": [
+            {
+                "text": "localizacion_coordenada_y",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            },
+            {
+                "text": " vs ",
+                "userDefined": false
+            },
+            {
+                "text": "localizacion_coordenada_y",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            }
+        ],
+        "isTemplate": false,
+        "count": 0,
+        "updated": 0
+    },
+    {
+        "id": "07de519b-3f1f-4e92-84a5-5df1647bc275",
+        "data": [
+            {
+                "text": "A graph with ",
+                "userDefined": false
+            },
+            {
+                "text": "direccion_coordenada_x",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            },
+            {
+                "text": " vs ",
+                "userDefined": false
+            },
+            {
+                "text": "direccion_coordenada_y",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            }
+        ],
+        "isTemplate": false,
+        "count": 0,
+        "updated": 0
+    },
+    {
+        "id": "f1b88e4d-420e-47df-ad71-d43ceb637657",
+        "data": [
+            {
+                "text": "I want a graph with ",
+                "userDefined": false
+            },
+            {
+                "text": "direccion_coordenada_x",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            },
+            {
+                "text": " vs ",
+                "userDefined": false
+            },
+            {
+                "text": "direccion_coordenada_y",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            }
+        ],
+        "isTemplate": false,
+        "count": 0,
+        "updated": 0
+    },
+    {
+        "id": "01e193cd-906e-4bde-a574-ba08b768d4de",
+        "data": [
+            {
+                "text": "view graph with ",
+                "userDefined": false
+            },
+            {
+                "text": "direccion_coordenada_x",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            },
+            {
+                "text": " vs ",
+                "userDefined": false
+            },
+            {
+                "text": "direccion_coordenada_y",
+                "alias": "columns_select",
+                "meta": "@columns_select",
+                "userDefined": true
+            }
+        ],
+        "isTemplate": false,
+        "count": 0,
+        "updated": 0
+    }
+]

@@ -1,0 +1,42 @@
+{
+    "id": "f91b1c18-bb10-42d5-9e3d-2441ceac0bae",
+    "name": "Default Welcome Intent",
+    "auto": true,
+    "contexts": [],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "input.welcome",
+            "affectedContexts": [],
+            "parameters": [],
+            "messages": [
+                {
+                    "type": 4,
+                    "platform": "telegram",
+                    "lang": "en",
+                    "condition": "",
+                    "payload": {
+                        "telegram": {
+                            "text": "Hi human!\n\nI'm a chatbot created to help to translate natural language to SQL. I'll give you data and other visual information from the database I am connect to.\n\nIf you still don't know what to do or say please ask for help.",
+                            "parse_mode": "html"
+                        }
+                    }
+                }
+            ],
+            "defaultResponsePlatforms": {},
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [
+        {
+            "name": "WELCOME"
+        }
+    ],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

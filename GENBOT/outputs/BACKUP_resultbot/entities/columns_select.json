@@ -1,0 +1,9 @@
+{
+  "id": "e7365879-199c-4fe8-908a-be86e9de860e",
+  "name": "columns_select",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,67 @@
+{
+  "id": "29dff239-9857-4603-82cc-8e9b237b2ab9",
+  "parentId": "332c6241-ffd0-4a91-872b-ec17714c42b5",
+  "rootParentId": "f91b1c18-bb10-42d5-9e3d-2441ceac0bae",
+  "name": "Change Dialogflow_Type - field",
+  "auto": true,
+  "contexts": [
+    "ChangeDB_Type-no-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.DBname-custom.Tablename-custom.CsvPath-custom.Fieldsynonyms-no.ChangeDB_Type-no-yes.ChangeDB_Type-no-yes-custom",
+      "affectedContexts": [
+        {
+          "name": "ChangeDialogflow_Type-field-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "10c59e6b-1a11-434a-bf94-8a1273ad7c1c",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "tablename",
+          "value": "$tablename",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "d23d45fc-67a3-4ddc-9fc8-625ed7d926aa",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "fieldname",
+          "value": "$fieldname",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

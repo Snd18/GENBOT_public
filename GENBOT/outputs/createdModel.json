@@ -1,0 +1,83 @@
+{
+    "tables": [
+        {
+            "fields": [
+                {
+                    "db_type": "integer", 
+                    "entity_type": "sys.number", 
+                    "field_name": "farmacia_nro_soe", 
+                    "synonyms": [
+                        "d"
+                    ], 
+                    "order": 0
+                }, 
+                {
+                    "db_type": "varchar(51)", 
+                    "entity_type": "None", 
+                    "field_name": "titular_nombre", 
+                    "synonyms": [
+                        "d"
+                    ], 
+                    "order": 1
+                }, 
+                {
+                    "db_type": "varchar(5)", 
+                    "entity_type": "None", 
+                    "field_name": "direccion_vial_tipo", 
+                    "synonyms": [
+                        "d"
+                    ], 
+                    "order": 2
+                }, 
+                {
+                    "db_type": "varchar(42)", 
+                    "entity_type": "None", 
+                    "field_name": "direccion_vial_nombre", 
+                    "synonyms": [
+                        "d"
+                    ], 
+                    "order": 3
+                }, 
+                {
+                    "db_type": "varchar(9)", 
+                    "entity_type": "None", 
+                    "field_name": "direccion_vial_nro", 
+                    "synonyms": [
+                        "d"
+                    ], 
+                    "order": 4
+                }, 
+                {
+                    "db_type": "varchar(44)", 
+                    "entity_type": "None", 
+                    "field_name": "municipio_nombre", 
+                    "synonyms": [
+                        "d"
+                    ], 
+                    "order": 5
+                }, 
+                {
+                    "db_type": "integer", 
+                    "entity_type": "sys.number", 
+                    "field_name": "localizacion_coordenada_x", 
+                    "synonyms": [
+                        "d"
+                    ], 
+                    "order": 6
+                }, 
+                {
+                    "db_type": "integer", 
+                    "entity_type": "sys.number", 
+                    "field_name": "localizacion_coordenada_y", 
+                    "synonyms": [
+                        "d"
+                    ], 
+                    "order": 7
+                }
+            ], 
+            "csvPath": "/home/miso/REPO/chatbots/Sandra/sqlBot/jsonAgent/data/d.csv", 
+            "table_name": "d"
+        }
+    ], 
+    "bd_name": "d"
+}

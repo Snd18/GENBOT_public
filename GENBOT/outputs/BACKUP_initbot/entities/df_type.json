@@ -1,0 +1,9 @@
+{
+  "id": "9f59a809-9b64-40aa-888e-05c89facc309",
+  "name": "df_type",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

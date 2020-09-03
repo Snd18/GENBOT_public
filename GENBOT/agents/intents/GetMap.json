@@ -1,0 +1,50 @@
+{
+    "id": "66102232-ec5f-4343-84b6-f3bf270c22b9",
+    "name": "GetMap",
+    "auto": true,
+    "contexts": [],
+    "responses": [
+        {
+            "resetContexts": false,
+            "affectedContexts": [],
+            "parameters": [
+                {
+                    "id": "afa918a3-ca4f-41f3-92aa-74eabd1679ca",
+                    "required": true,
+                    "dataType": "@sys.number",
+                    "name": "idImage",
+                    "value": "$idImage",
+                    "prompts": [
+                        {
+                            "lang": "en",
+                            "value": "Please, press the button again"
+                        }
+                    ],
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": [],
+                    "isList": false
+                }
+            ],
+            "messages": [
+                {
+                    "type": 0,
+                    "lang": "en",
+                    "condition": "",
+                    "speech": []
+                }
+            ],
+            "defaultResponsePlatforms": {},
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": true,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

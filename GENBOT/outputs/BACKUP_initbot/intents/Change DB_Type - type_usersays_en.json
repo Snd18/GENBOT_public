@@ -1,0 +1,16 @@
+[
+  {
+    "id": "c4b1d684-13b2-42ad-9580-ca77abdc74af",
+    "data": [
+      {
+        "text": "integer",
+        "alias": "db_type",
+        "meta": "@db_type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

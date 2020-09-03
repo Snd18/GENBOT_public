@@ -1,0 +1,49 @@
+{
+  "id": "fa563174-3688-4d4d-8eb0-ac0123b1e06a",
+  "parentId": "a85ba22c-d703-4157-868f-c25ff35dea19",
+  "rootParentId": "f91b1c18-bb10-42d5-9e3d-2441ceac0bae",
+  "name": "Change DB_Type - type",
+  "auto": true,
+  "contexts": [
+    "ChangeDB_Type-field-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.DBname-custom.Tablename-custom.CsvPath-custom.Fieldsynonyms-yes.ChangeDB_Type-yes-custom.ChangeDB_Type-field-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5cdb9d05-bad2-4b51-aef2-ed530c3980a1",
+          "required": false,
+          "dataType": "@db_type",
+          "name": "db_type",
+          "value": "$db_type",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "value": "date",
+    "synonyms": [
+      "date"
+    ]
+  },
+  {
+    "value": "integer",
+    "synonyms": [
+      "integer"
+    ]
+  },
+  {
+    "value": "varchar",
+    "synonyms": [
+      "varchar"
+    ]
+  },
+  {
+    "value": "decimal",
+    "synonyms": [
+      "decimal"
+    ]
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "id": "67ad8674-a0cc-4954-9efd-8f3da9890440",
+  "name": "Ask for map",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2e6466a2-e4bd-448f-bb03-fe51bddca642",
+          "required": true,
+          "dataType": "@farmacia_Direccin",
+          "name": "farmacia_Direccin",
+          "value": "$farmacia_Direccin",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "80628baa-e046-4687-9e19-2ee972502795",
+          "required": false,
+          "dataType": "",
+          "name": "tablename",
+          "value": "farmacia",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "4e23e114-c32c-4785-ad80-dec725ab9f88",
+          "required": false,
+          "dataType": "",
+          "name": "databasename",
+          "value": "farmacia",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "3ccc9c00-aefe-4e26-9a93-d16fa9715b29",
+          "required": false,
+          "dataType": "",
+          "name": "latitude",
+          "value": "Latitud",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "becba47e-814c-4a89-836b-391f4c7ffa4e",
+          "required": false,
+          "dataType": "",
+          "name": "longitude",
+          "value": "Longitud",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "54fd6fdb-e905-4f7f-9003-a1536d94bb54",
+          "required": false,
+          "dataType": "",
+          "name": "extraInfo",
+          "value": "\u0027Municipio\u0027, \u0027Provincia\u0027, \u0027Cdigo_Po\u0027, \u0027Direccin\u0027",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

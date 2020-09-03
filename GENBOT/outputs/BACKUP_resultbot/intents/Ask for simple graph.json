@@ -1,0 +1,74 @@
+{
+  "id": "e11b8917-20e9-4a82-b922-2736f8cdfc09",
+  "name": "Ask for simple graph",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Onevargraph-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "14fdfc18-8de5-4e59-9f88-671f7c860267",
+          "required": true,
+          "dataType": "@columns_select",
+          "name": "columns_select",
+          "value": "$columns_select",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "cec2ff71-e354-44e8-b778-380ed3d985f1",
+          "required": false,
+          "dataType": "",
+          "name": "tablename",
+          "value": "farmacia",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "6ca4e741-d589-4d00-b40d-8ba5a06936bb",
+          "required": false,
+          "dataType": "",
+          "name": "databasename",
+          "value": "farmacia",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "ghhfghf"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

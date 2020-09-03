@@ -1,0 +1,28 @@
+[
+  {
+    "id": "76c0404e-fa61-4c19-9efc-a71bc9476ce4",
+    "data": [
+      {
+        "text": "help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eb2010cd-af1e-493b-9791-8cfa3d5935d4",
+    "data": [
+      {
+        "text": "command",
+        "alias": "commands",
+        "meta": "@commands",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

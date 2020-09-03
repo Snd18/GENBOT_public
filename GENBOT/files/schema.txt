@@ -1,0 +1,48 @@
+@startuml
+class "farmacia:DB"{
+}
+class "farmacia:Table"{
+csv : string = "https://datos.comunidad.madrid/catalogo/dataset/6f407280-6ab1-43fb-bb48-ab954ec6edae/resource/130c1f6e-b131-44a1-94c9-00c9bb807ca6/download/oficinas_farmacia.csv"
+}
+"farmacia:DB" *-- "farmacia:Table"
+class "farmacia_nro_soe:Field"{
+DBtype : string = "integer"
+DFtype : string = "sys.number"
+}
+"farmacia:Table" *-- "farmacia_nro_soe:Field"
+class "titular_nombre:Field"{
+DBtype : string = "varchar(51)"
+DFtype : string = "None"
+}
+"farmacia:Table" *-- "titular_nombre:Field"
+class "direccion_vial_tipo:Field"{
+DBtype : string = "varchar(5)"
+DFtype : string = "None"
+}
+"farmacia:Table" *-- "direccion_vial_tipo:Field"
+class "direccion_vial_nombre:Field"{
+DBtype : string = "varchar(42)"
+DFtype : string = "None"
+}
+"farmacia:Table" *-- "direccion_vial_nombre:Field"
+class "direccion_vial_nro:Field"{
+DBtype : string = "varchar(9)"
+DFtype : string = "None"
+}
+"farmacia:Table" *-- "direccion_vial_nro:Field"
+class "municipio_nombre:Field"{
+DBtype : string = "varchar(44)"
+DFtype : string = "None"
+}
+"farmacia:Table" *-- "municipio_nombre:Field"
+class "localizacion_coordenada_x:Field"{
+DBtype : string = "integer"
+DFtype : string = "sys.number"
+}
+"farmacia:Table" *-- "localizacion_coordenada_x:Field"
+class "localizacion_coordenada_y:Field"{
+DBtype : string = "integer"
+DFtype : string = "sys.number"
+}
+"farmacia:Table" *-- "localizacion_coordenada_y:Field"
+@enduml

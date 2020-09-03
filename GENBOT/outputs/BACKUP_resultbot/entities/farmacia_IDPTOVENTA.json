@@ -1,0 +1,9 @@
+{
+  "id": "e8de8983-873c-4ae1-8468-67a2ccb60b7a",
+  "name": "farmacia_IDPTOVENTA",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

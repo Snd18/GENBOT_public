@@ -1,0 +1,52 @@
+{
+  "id": "d8d27a26-c23d-4ad5-8293-67acaf15e1fe",
+  "name": "Help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f710e494-7d71-41d9-a8a6-9f0f3bad0d6c",
+          "required": false,
+          "dataType": "@commands",
+          "name": "commands",
+          "value": "$commands",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "telegram": {
+              "text": "You asked for help!\n\nYou can get data from \u0027farmacias\u0027 table.\n\u0027Farmacias\u0027 have the following fields:\n- \u003cb\u003e\u0027X\u0027\u003c/b\u003e (integer): -3.364549999582778, -3.3677000000549238, -3.378410000221265.\n- \u003cb\u003e\u0027Y\u0027\u003c/b\u003e (integer): 40.473380000087, 40.48171999977819, 40.47375999962434.\n- \u003cb\u003e\u0027OBJECTID\u0027\u003c/b\u003e \u003ci\u003e(integer)\u003c/i\u003e: 17, 7, 11.\n- \u003cb\u003e\u0027IDPTOVENTA\u0027\u003c/b\u003e \u003ci\u003e(string)\u003c/i\u003e: FB_038DE9, FB_039322, FB_034C03.\n- \u003cb\u003e\u0027Municipio\u0027\u003c/b\u003e \u003ci\u003e(string)\u003c/i\u003e: AlcalÃ¡ de Henares, AlcalÃ¡ de Henares, AlcalÃ¡ de Henares.\n- \u003cb\u003e\u0027Provincia\u0027\u003c/b\u003e \u003ci\u003e(string)\u003c/i\u003e: MADRID, MADRID, MADRID.\n- \u003cb\u003e\u0027CÃ³digo_Po\u0027\u003c/b\u003e \u003ci\u003e(integer)\u003c/i\u003e: 28803, 28801, 28802.\n- \u003cb\u003e\u0027DirecciÃ³n\u0027\u003c/b\u003e \u003ci\u003e(string)\u003c/i\u003e: CL RIO MANZANARES, 2, CL MAYOR, 90, AV REYES CATOLICOS, 42.\n- \u003cb\u003e\u0027Latitud\u0027\u003c/b\u003e \u003ci\u003e(integer)\u003c/i\u003e: 40.47338, 40.48172, 40.47376.\n- \u003cb\u003e\u0027Longitud\u0027\u003c/b\u003e \u003ci\u003e(integer)\u003c/i\u003e: -3.36455, -3.3677, -3.3784099999999997.\n\nAlso you can ask for graphs. Example: \u0027A graph with X and Y\u0027.\n...or maps. Example: \u0027A map for CL RIO MANZANARES\u0027.",
+              "parse_mode": "html"
+            }
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "value": "number_farmacia_X",
+    "synonyms": [
+      "X"
+    ]
+  },
+  {
+    "value": "number_farmacia_Y",
+    "synonyms": [
+      "Y"
+    ]
+  },
+  {
+    "value": "number_farmacia_OBJECTID",
+    "synonyms": [
+      "OBJECTID"
+    ]
+  },
+  {
+    "value": "number_farmacia_Cdigo_Po",
+    "synonyms": [
+      "Cdigo_Po"
+    ]
+  },
+  {
+    "value": "number_farmacia_Latitud",
+    "synonyms": [
+      "Latitud"
+    ]
+  },
+  {
+    "value": "number_farmacia_Longitud",
+    "synonyms": [
+      "Longitud"
+    ]
+  }
+]

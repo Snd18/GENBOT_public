@@ -1,0 +1,49 @@
+{
+  "id": "263e3a90-2e80-476d-bffa-e4c973d268a8",
+  "parentId": "29dff239-9857-4603-82cc-8e9b237b2ab9",
+  "rootParentId": "f91b1c18-bb10-42d5-9e3d-2441ceac0bae",
+  "name": "Change Dialogflow_Type - type",
+  "auto": true,
+  "contexts": [
+    "ChangeDialogflow_Type-field-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.DBname-custom.Tablename-custom.CsvPath-custom.Fieldsynonyms-no.ChangeDB_Type-no-yes.ChangeDB_Type-no-yes-custom.ChangeDialogflow_Type-field-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "849867a4-8352-491b-bbb2-014108f0bf1c",
+          "required": false,
+          "dataType": "@df_type",
+          "name": "df_type",
+          "value": "$df_type",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

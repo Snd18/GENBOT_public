@@ -1,0 +1,55 @@
+{
+  "id": "3454582d-ae73-45ef-893d-2c73b74f918c",
+  "parentId": "f91b1c18-bb10-42d5-9e3d-2441ceac0bae",
+  "rootParentId": "f91b1c18-bb10-42d5-9e3d-2441ceac0bae",
+  "name": "DB name",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "DBname-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9af3e273-7cd5-41ca-b473-adda4872431c",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "db_name",
+          "value": "$db_name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

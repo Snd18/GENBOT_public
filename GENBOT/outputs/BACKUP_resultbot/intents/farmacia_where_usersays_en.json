@@ -1,0 +1,88 @@
+[
+  {
+    "id": "e0d21c9f-7880-40b6-8c0b-c61a1ddd09c6",
+    "data": [
+      {
+        "text": "What is the ",
+        "userDefined": false
+      },
+      {
+        "text": "titular_nombre",
+        "alias": "columns_select",
+        "meta": "@columns_select",
+        "userDefined": false
+      },
+      {
+        "text": " of pharmacy in ",
+        "userDefined": false
+      },
+      {
+        "alias": "farmacia_direccion_vial_tipo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7614dc5d-2660-4a39-b86c-def0d8f8e303",
+    "data": [
+      {
+        "text": "What is the ",
+        "userDefined": false
+      },
+      {
+        "text": "titular_nombre",
+        "alias": "columns_select",
+        "meta": "@columns_select",
+        "userDefined": false
+      },
+      {
+        "text": " of pharmacy in ",
+        "userDefined": false
+      },
+      {
+        "alias": "farmacia_direccion_vial_nombre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a674d8f8-c454-450f-b57b-ff4fb0df2bc1",
+    "data": [
+      {
+        "text": "What is the ",
+        "userDefined": false
+      },
+      {
+        "text": "titular_nombre",
+        "alias": "columns_select",
+        "meta": "@columns_select",
+        "userDefined": false
+      },
+      {
+        "text": " of pharmacy in ",
+        "userDefined": false
+      },
+      {
+        "alias": "farmacia_direccion_vial_tipo",
+        "userDefined": false
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "alias": "farmacia_direccion_vial_nombre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

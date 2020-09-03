@@ -1,0 +1,9 @@
+{
+  "id": "5240b392-af18-40bd-830f-6e7a86b821d0",
+  "name": "columns_where",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

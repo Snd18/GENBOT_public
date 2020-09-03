@@ -1,0 +1,36 @@
+{
+    "id": "d5499278-d91e-413d-8cd8-ea44ba556912",
+    "name": "GetImage",
+    "auto": true,
+    "contexts": [],
+    "responses": [
+        {
+            "resetContexts": false,
+            "affectedContexts": [],
+            "parameters": [
+                {
+                    "id": "bf3185de-73cb-4ba8-85e7-451b98543d7d",
+                    "required": false,
+                    "dataType": "@sys.number",
+                    "name": "idImage",
+                    "value": "$idImage",
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": [],
+                    "isList": false
+                }
+            ],
+            "messages": [
+                {
+                    "type": 0,
+                    "lang": "en",
+                    "condition": "",
+                    "speech": []
+                }
+            ],
+            "defaultResponsePlatforms": {},
+            "speech": []
+        }
+    ]
+}

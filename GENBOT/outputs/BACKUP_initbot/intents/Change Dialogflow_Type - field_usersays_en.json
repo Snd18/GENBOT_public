@@ -1,0 +1,26 @@
+[
+  {
+    "id": "9c436430-7b4f-40ce-a973-0be0c442e8e5",
+    "data": [
+      {
+        "text": "tablename",
+        "alias": "tablename",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "/",
+        "userDefined": false
+      },
+      {
+        "text": "fieldname",
+        "alias": "fieldname",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

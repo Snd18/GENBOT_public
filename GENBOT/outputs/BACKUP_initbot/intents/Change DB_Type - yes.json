@@ -1,0 +1,42 @@
+{
+  "id": "bfad2338-9117-442b-9649-afeceb950faf",
+  "parentId": "262c9a16-9ba0-4817-91f9-e5b20e458a9f",
+  "rootParentId": "f91b1c18-bb10-42d5-9e3d-2441ceac0bae",
+  "name": "Change DB_Type - yes",
+  "auto": true,
+  "contexts": [
+    "Fieldsynonyms-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.DBname-custom.Tablename-custom.CsvPath-custom.Fieldsynonyms-yes",
+      "affectedContexts": [
+        {
+          "name": "ChangeDB_Type-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

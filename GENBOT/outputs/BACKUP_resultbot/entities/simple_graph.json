@@ -1,0 +1,9 @@
+{
+  "id": "fb9169f1-4d20-4d77-bbed-b0a2c320d011",
+  "name": "simple_graph",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

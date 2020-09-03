@@ -1,0 +1,52 @@
+{
+    "id": "d8d27a26-c23d-4ad5-8293-67acaf15e1fe",
+    "name": "Help",
+    "auto": true,
+    "contexts": [],
+    "responses": [
+        {
+            "resetContexts": false,
+            "affectedContexts": [],
+            "parameters": [
+                {
+                    "id": "f710e494-7d71-41d9-a8a6-9f0f3bad0d6c",
+                    "required": false,
+                    "dataType": "@commands",
+                    "name": "commands",
+                    "value": "$commands",
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": [],
+                    "isList": false
+                }
+            ],
+            "messages": [
+                {
+                    "type": 4,
+                    "platform": "telegram",
+                    "lang": "en",
+                    "condition": "",
+                    "payload": {
+                        "telegram": {
+                            "text": "You asked for help!\n\nYou can get data from <i>'nametable'</i> table.\n<i>'nametable'</i> have the following fields:\n\n- <b>'OBJECTID'</b> <i>(integer)</i>: 2624, 2637, 2627.\n- <b>'IDPTOVENTA'</b> <i>(varchar(9))</i>: FB_028A48, FB_035694, FB_03825F.\n- <b>'Municipio'</b> <i>(varchar(19))</i>: \u00c3\u0081lamo, El, Alcal\u00c3\u00a1 de Henares, Alcal\u00c3\u00a1 de Henares.\n- <b>'Provincia'</b> <i>(varchar(11))</i>: MADRID, MADRID, MADRID.\n- <b>'Cdigo_Po'</b> <i>(integer)</i>: 28607, 28803, 28801.\n- <b>'Direccin'</b> <i>(varchar(27))</i>: CL SOLEDAD 8, CL ENTREPE?AS, 4 LOCAL 111, CL MAYOR, 37.\n- <b>'Latitud'</b> <i>(decimal(10,8))</i>: 40.231590000000004, 40.469809999999995, 40.48215.\n- <b>'Longitud'</b> <i>(decimal(10,8))</i>: -3.9887300000000003, -3.36326, -3.3667199999999995.\n\nAlso you can ask for graphs with one or two variables.\nExample: 'A graph with OBJECTID and IDPTOVENTA' or 'A graph for OBJECTID'.\n\n...or maps if they are supported.\nExample: 'A map for <iaddress>'.",
+                            "parse_mode": "html"
+                        }
+                    }
+                }
+            ],
+            "defaultResponsePlatforms": {
+                "telegram": true
+            },
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": true,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

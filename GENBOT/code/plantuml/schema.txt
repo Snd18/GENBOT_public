@@ -1,0 +1,48 @@
+@startuml
+class "sandra:DB"{
+}
+class "sandra:Table"{
+csv : string = "https://d2..."
+}
+"sandra:DB" *-- "sandra:Table"
+class "farmacia_nro_soe:Field"{
+DBtype : string = "integer"
+DFtype : string = "@sys.number"
+}
+"sandra:Table" *-- "farmacia_nro_soe:Field"
+class "titular_nombre:Field"{
+DBtype : string = "varchar(34)"
+DFtype : string = "@titular_nombre"
+}
+"sandra:Table" *-- "titular_nombre:Field"
+class "direccion_vial_tipo:Field"{
+DBtype : string = "varchar(5)"
+DFtype : string = "@direccion_vial_tipo"
+}
+"sandra:Table" *-- "direccion_vial_tipo:Field"
+class "direccion_vial_nombre:Field"{
+DBtype : string = "varchar(30)"
+DFtype : string = "@direccion_vial_nombre"
+}
+"sandra:Table" *-- "direccion_vial_nombre:Field"
+class "direccion_vial_nro:Field"{
+DBtype : string = "varchar(3)"
+DFtype : string = "@direccion_vial_nro"
+}
+"sandra:Table" *-- "direccion_vial_nro:Field"
+class "municipio_nombre:Field"{
+DBtype : string = "varchar(23)"
+DFtype : string = "@municipio_nombre"
+}
+"sandra:Table" *-- "municipio_nombre:Field"
+class "localizacion_coordenada_x:Field"{
+DBtype : string = "integer"
+DFtype : string = "@sys.number"
+}
+"sandra:Table" *-- "localizacion_coordenada_x:Field"
+class "localizacion_coordenada_y:Field"{
+DBtype : string = "integer"
+DFtype : string = "@sys.number"
+}
+"sandra:Table" *-- "localizacion_coordenada_y:Field"
+@enduml

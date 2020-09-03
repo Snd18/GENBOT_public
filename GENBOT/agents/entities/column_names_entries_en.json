@@ -1,0 +1,50 @@
+[
+    {
+        "value": "OBJECTID",
+        "synonyms": [
+            "D"
+        ]
+    },
+    {
+        "value": "IDPTOVENTA",
+        "synonyms": [
+            "F"
+        ]
+    },
+    {
+        "value": "Municipio",
+        "synonyms": [
+            "D"
+        ]
+    },
+    {
+        "value": "Provincia",
+        "synonyms": [
+            "D"
+        ]
+    },
+    {
+        "value": "Cdigo_Po",
+        "synonyms": [
+            "D"
+        ]
+    },
+    {
+        "value": "Direccin",
+        "synonyms": [
+            "D"
+        ]
+    },
+    {
+        "value": "Latitud",
+        "synonyms": [
+            "D"
+        ]
+    },
+    {
+        "value": "Longitud",
+        "synonyms": [
+            "D"
+        ]
+    }
+]

@@ -1,0 +1,42 @@
+{
+  "id": "332c6241-ffd0-4a91-872b-ec17714c42b5",
+  "parentId": "9c80a110-419f-406f-a89f-c2673ef10e14",
+  "rootParentId": "f91b1c18-bb10-42d5-9e3d-2441ceac0bae",
+  "name": "Change Dialogflow_Type - yes",
+  "auto": true,
+  "contexts": [
+    "ChangeDB_Type-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.DBname-custom.Tablename-custom.CsvPath-custom.Fieldsynonyms-no.ChangeDB_Type-no-yes",
+      "affectedContexts": [
+        {
+          "name": "ChangeDB_Type-no-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

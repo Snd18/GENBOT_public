@@ -1,0 +1,67 @@
+{
+  "id": "a85ba22c-d703-4157-868f-c25ff35dea19",
+  "parentId": "bfad2338-9117-442b-9649-afeceb950faf",
+  "rootParentId": "f91b1c18-bb10-42d5-9e3d-2441ceac0bae",
+  "name": "Change DB_Type - field",
+  "auto": true,
+  "contexts": [
+    "ChangeDB_Type-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.DBname-custom.Tablename-custom.CsvPath-custom.Fieldsynonyms-yes.ChangeDB_Type-yes-custom",
+      "affectedContexts": [
+        {
+          "name": "ChangeDB_Type-field-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "99c67701-8da5-4d5a-9544-1068ef6c0030",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "fieldname",
+          "value": "$fieldname",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "29b2de92-9f15-4cb7-b27d-ac1a383635c1",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "tablename",
+          "value": "$tablename",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

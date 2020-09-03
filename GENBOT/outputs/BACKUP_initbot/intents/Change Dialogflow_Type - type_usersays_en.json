@@ -1,0 +1,16 @@
+[
+  {
+    "id": "5b7f8bce-c5fc-44a1-b3c3-2077a48a2d07",
+    "data": [
+      {
+        "text": "date",
+        "alias": "df_type",
+        "meta": "@df_type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

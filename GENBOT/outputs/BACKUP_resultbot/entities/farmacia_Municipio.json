@@ -1,0 +1,9 @@
+{
+  "id": "80dfb739-ec3f-41bd-917c-21070f05c8e8",
+  "name": "farmacia_Municipio",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "d103e4b7-1866-4dc8-b11a-61798d3b96d0",
+    "data": [
+      {
+        "text": "image ",
+        "userDefined": false
+      },
+      {
+        "text": "987568572545",
+        "alias": "idImage",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "addaea99-4890-4975-b111-6bb7407df116",
+    "data": [
+      {
+        "text": "The image is ",
+        "userDefined": false
+      },
+      {
+        "text": "789545125262",
+        "alias": "idImage",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8ea776b7-a354-4f5c-a4e7-676844c628ed",
+    "data": [
+      {
+        "text": "The image id is ",
+        "userDefined": false
+      },
+      {
+        "text": "201589546523",
+        "alias": "idImage",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

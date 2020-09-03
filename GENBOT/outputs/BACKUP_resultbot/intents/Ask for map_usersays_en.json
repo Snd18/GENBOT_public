@@ -1,0 +1,114 @@
+[
+  {
+    "id": "5644eb73-3cd1-4794-8b1a-eec7bffa8d67",
+    "data": [
+      {
+        "text": "Where is ",
+        "userDefined": false
+      },
+      {
+        "text": "this",
+        "alias": "farmacia_Direccin",
+        "meta": "@farmacia_Direccin",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "be6f7003-b129-4eef-8566-f2d9584e0605",
+    "data": [
+      {
+        "text": "I want a  map of ",
+        "userDefined": false
+      },
+      {
+        "text": "this",
+        "alias": "farmacia_Direccin",
+        "meta": "@farmacia_Direccin",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc7a6235-a3e3-41cc-b9e5-d6dd6f1b782a",
+    "data": [
+      {
+        "text": "I want to know where is ",
+        "userDefined": false
+      },
+      {
+        "text": "this",
+        "alias": "farmacia_Direccin",
+        "meta": "@farmacia_Direccin",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a594d40d-598d-4107-85f5-84977bcb8875",
+    "data": [
+      {
+        "text": "display on map ",
+        "userDefined": false
+      },
+      {
+        "text": "this",
+        "alias": "farmacia_Direccin",
+        "meta": "@farmacia_Direccin",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "36854365-bace-4b22-be1d-132c528da6e1",
+    "data": [
+      {
+        "text": "display ",
+        "userDefined": false
+      },
+      {
+        "text": "Maria de los amores",
+        "alias": "farmacia_Direccin",
+        "meta": "@farmacia_Direccin",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9aab4ae9-ba51-40ca-a420-29b5a2d87df9",
+    "data": [
+      {
+        "text": "show me on map ",
+        "userDefined": false
+      },
+      {
+        "text": "pavones",
+        "alias": "farmacia_Direccin",
+        "meta": "@farmacia_Direccin",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

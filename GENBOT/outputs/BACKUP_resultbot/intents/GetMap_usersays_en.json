@@ -1,0 +1,32 @@
+[
+  {
+    "id": "8a6021f7-5746-4c33-a8fd-95044243f1fd",
+    "data": [
+      {
+        "text": "the map is:",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b6d3ae1d-6c04-4535-8b52-5c9ecbc92f30",
+    "data": [
+      {
+        "text": "The map is: ",
+        "userDefined": false
+      },
+      {
+        "text": "74897864645",
+        "alias": "idImage",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

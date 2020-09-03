@@ -1,0 +1,9 @@
+{
+  "id": "17c5e2ac-8789-4467-bc12-221e81049a1d",
+  "name": "farmacia_Direccin",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

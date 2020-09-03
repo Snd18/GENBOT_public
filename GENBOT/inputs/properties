@@ -1,0 +1,15 @@
+#All names
+All %names:select%
+
+#The names of people who like blue and bananas
+The %names:select% of people who like &favorite_color& and &favorite_fruit&
+
+#The name for username Sandra99
+The %name:select% for %username:where% &username&
+
+
+
+ 
+
+
+

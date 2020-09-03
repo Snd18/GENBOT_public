@@ -1,0 +1,11 @@
+#I want all %all-columns%
+#All %titles%
+#&place&'s %districts%
+#The %url:plaques:select% of %url:plaques:where% &url:plaques&
+#Give me all %url:plaques:select,title:plaques:select%
+#Who %owns:houses:select% a house with &color:houses& %color:houses:where%, &ownerphone:houses& %ownerphone:houses:where%, &builderphone:houses& %builderphone:houses:where%, &height:houses& %height:houses:where% and &width:houses& %width:houses:where%?
+#&nombres:nombre&'s %nombres:age:select%
+#What is the %titular_nombre:farmacias:select% of pharmacy in &direccion_vial_tipo:farmacias,direccion_vial_nombre:farmacias&
+#What is the %direccion:farmacias:select%
+What is the %municipio:farmacia:select%
+MAP:{Longitud, Latitud},{'Municipio', 'Provincia', 'Cdigo_Po', 'Direccin'}

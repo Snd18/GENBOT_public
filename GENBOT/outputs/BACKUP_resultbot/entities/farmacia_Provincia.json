@@ -1,0 +1,9 @@
+{
+  "id": "707a27c8-a05f-4944-9638-8dc521ea9a04",
+  "name": "farmacia_Provincia",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

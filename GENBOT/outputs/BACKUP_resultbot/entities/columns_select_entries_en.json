@@ -1,0 +1,62 @@
+[
+  {
+    "value": "X",
+    "synonyms": [
+      "X"
+    ]
+  },
+  {
+    "value": "Y",
+    "synonyms": [
+      "Y"
+    ]
+  },
+  {
+    "value": "OBJECTID",
+    "synonyms": [
+      "OBJECTID"
+    ]
+  },
+  {
+    "value": "IDPTOVENTA",
+    "synonyms": [
+      "IDPTOVENTA"
+    ]
+  },
+  {
+    "value": "Municipio",
+    "synonyms": [
+      "Municipio"
+    ]
+  },
+  {
+    "value": "Provincia",
+    "synonyms": [
+      "Provincia"
+    ]
+  },
+  {
+    "value": "Cdigo_Po",
+    "synonyms": [
+      "Cdigo_Po"
+    ]
+  },
+  {
+    "value": "Direccin",
+    "synonyms": [
+      "Direccin"
+    ]
+  },
+  {
+    "value": "Latitud",
+    "synonyms": [
+      "Latitud"
+    ]
+  },
+  {
+    "value": "Longitud",
+    "synonyms": [
+      "Longitud"
+    ]
+  }
+]

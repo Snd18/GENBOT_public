@@ -1,0 +1,39 @@
+{
+    "id": "d8d27a26-c23d-4ad5-8293-67acaf15e1fe",
+    "name": "Help",
+    "auto": true,
+    "contexts": [],
+    "responses": [
+        {
+            "resetContexts": false,
+            "affectedContexts": [],
+            "parameters": [],
+            "messages": [
+                {
+                    "type": 4,
+                    "platform": "telegram",
+                    "lang": "en",
+                    "condition": "",
+                    "payload": {
+                        "telegram": {
+                            "text": "You asked for help!\n\nYou can get data from <i>'nametable'</i> table.\n<i>'nametable'</i> have the following fields:\n\n- <b>'prbarc'</b> <i>(integer)</i>: 1946330, 1400450270, 2279776.\n- <b>'prprsu'</b> <i>(varchar(6))</i>: BP13  , BCDIA , BP19  .\n- <b>'prcolp'</b> <i>(varchar(5))</i>: LEC  , LEC  , LEC  .\n- <b>'prcocp'</b> <i>(varchar(5))</i>: PRL  , PRL  , PRL  .\n- <b>'prlebi'</b> <i>(varchar(6))</i>: BPM   , BPM   , BPM   .\n- <b>'prlesu'</b> <i>(varchar(6))</i>: BP19  , BP21  , BP13  .\n- <b>'pradul'</b> <i>(integer)</i>: 1, 1, 1.\n- <b>'prfpre'</b> <i>(varchar(8))</i>: 01/07/20, 01/07/20, 01/07/20.\n- <b>'prcocs'</b> <i>(varchar(5))</i>: LIB  , LIB  , LIB  .\n- <b>'tititu'</b> <i>(varchar(60))</i>: El mapa de los afectos / , Nada se acaba /, Y Julia ret\u00f3 a los dioses / .\n- <b>'tiauto'</b> <i>(varchar(32))</i>: Merino, Ana (1971-), Atwood, Margaret (1939-), Posteguillo, Santiago (1967-).\n- <b>'tiisxn'</b> <i>(varchar(17))</i>: 978-84-233-5693-5, 978-84-264-0027-7, 978-84-08-22469-3.\n\nAlso you can ask for graphs with one or two variables.\nExample: 'A graph with prbarc and prprsu' or 'A graph for prbarc'.\n\n",
+                            "parse_mode": "html"
+                        }
+                    }
+                }
+            ],
+            "defaultResponsePlatforms": {
+                "telegram": true
+            },
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": true,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

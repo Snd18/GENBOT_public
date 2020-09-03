@@ -1,0 +1,67 @@
+{
+    "id": "7c308982-f0d2-4129-b5d4-5f01d21545b8",
+    "name": "Ask for complex graph",
+    "auto": true,
+    "contexts": [],
+    "responses": [
+        {
+            "resetContexts": false,
+            "affectedContexts": [
+                {
+                    "name": "Twovargraph-followup",
+                    "parameters": {},
+                    "lifespan": 2
+                }
+            ],
+            "parameters": [
+                {
+                    "id": "3bb0df88-f36d-42eb-be60-08c021ef469d",
+                    "required": true,
+                    "dataType": "@columns_select",
+                    "name": "columns_select",
+                    "value": "$columns_select",
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": [],
+                    "isList": true
+                },
+                {
+                    "id": "26e56b0a-03b7-4ceb-8322-5b4d9089d231",
+                    "required": false,
+                    "dataType": "",
+                    "name": "tablename",
+                    "value": "library",
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": [],
+                    "isList": false
+                },
+                {
+                    "id": "ba50e724-051b-4c8d-aacf-23b97fea00f0",
+                    "required": false,
+                    "dataType": "",
+                    "name": "databasename",
+                    "value": "library",
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": [],
+                    "isList": false
+                }
+            ],
+            "messages": [],
+            "defaultResponsePlatforms": {},
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": true,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

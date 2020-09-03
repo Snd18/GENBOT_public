@@ -1,0 +1,56 @@
+[
+    {
+        "id": "03d457b8-dea8-4524-b509-2a5737331a39",
+        "data": [
+            {
+                "text": "file ",
+                "userDefined": false
+            },
+            {
+                "text": "201956284545",
+                "alias": "idFile",
+                "meta": "@sys.number",
+                "userDefined": false
+            }
+        ],
+        "isTemplate": false,
+        "count": 1,
+        "updated": 0
+    },
+    {
+        "id": "2d534d5c-9bbb-4df6-ad5e-64b41e0f5bcc",
+        "data": [
+            {
+                "text": "The file is ",
+                "userDefined": false
+            },
+            {
+                "text": "201933052244",
+                "alias": "idFile",
+                "meta": "@sys.number",
+                "userDefined": false
+            }
+        ],
+        "isTemplate": false,
+        "count": 0,
+        "updated": 0
+    },
+    {
+        "id": "37339c03-3c64-46ed-af5d-46726fcc0fdc",
+        "data": [
+            {
+                "text": "The file number is: ",
+                "userDefined": false
+            },
+            {
+                "text": "20191105",
+                "alias": "idFile",
+                "meta": "@sys.number",
+                "userDefined": true
+            }
+        ],
+        "isTemplate": false,
+        "count": 0,
+        "updated": 0
+    }
+]

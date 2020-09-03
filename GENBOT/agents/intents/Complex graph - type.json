@@ -1,0 +1,49 @@
+{
+    "id": "55fce9e4-5e9e-4437-ba56-f3c310f51cd7",
+    "parentId": "7c308982-f0d2-4129-b5d4-5f01d21545b8",
+    "rootParentId": "7c308982-f0d2-4129-b5d4-5f01d21545b8",
+    "name": "Complex graph - type",
+    "auto": true,
+    "contexts": [
+        "Twovargraph-followup"
+    ],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "Twovargraph.Twovargraph-custom",
+            "affectedContexts": [],
+            "parameters": [
+                {
+                    "id": "0490c5d8-4b4c-4fe0-8dd4-a8a6841b5261",
+                    "required": false,
+                    "dataType": "@complex_graph",
+                    "name": "complex_graph",
+                    "value": "$complex_graph",
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": [],
+                    "isList": false
+                }
+            ],
+            "messages": [
+                {
+                    "type": 0,
+                    "lang": "en",
+                    "condition": "",
+                    "speech": []
+                }
+            ],
+            "defaultResponsePlatforms": {},
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": true,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "value": "pie",
+        "synonyms": [
+            "pie"
+        ]
+    },
+    {
+        "value": "histogram",
+        "synonyms": [
+            "histogram"
+        ]
+    },
+    {
+        "value": "linesSerie",
+        "synonyms": [
+            "linesSerie"
+        ]
+    },
+    {
+        "value": "pointsSerie",
+        "synonyms": [
+            "pointsSerie"
+        ]
+    }
+]

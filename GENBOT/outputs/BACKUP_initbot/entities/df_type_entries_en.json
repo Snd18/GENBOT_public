@@ -1,0 +1,32 @@
+[
+  {
+    "value": "number",
+    "synonyms": [
+      "number"
+    ]
+  },
+  {
+    "value": "date",
+    "synonyms": [
+      "date"
+    ]
+  },
+  {
+    "value": "url",
+    "synonyms": [
+      "url"
+    ]
+  },
+  {
+    "value": "phone-number",
+    "synonyms": [
+      "phone-number"
+    ]
+  },
+  {
+    "value": "custom",
+    "synonyms": [
+      "custom"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+    "id": "f4ee0fc1-9d18-46dd-8c8e-1da27dc57b12",
+    "name": "complex_graph",
+    "isOverridable": true,
+    "isEnum": false,
+    "isRegexp": false,
+    "automatedExpansion": true,
+    "allowFuzzyExtraction": false
+}
